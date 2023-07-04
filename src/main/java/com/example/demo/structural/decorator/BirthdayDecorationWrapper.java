@@ -1,6 +1,6 @@
 package com.example.demo.structural.decorator;
 
-class BirthdayDecoration extends Decoration {
+class BirthdayDecorationWrapper extends Decoration {
 
 	@Override
 	public String doDecoration() {
