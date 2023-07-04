@@ -1,6 +1,6 @@
 package com.example.demo.creational.prototype;
 
-class EducationService {
+class EmpTrainingService {
 
 	public String completeEducation() {
 		return "Education Completed";

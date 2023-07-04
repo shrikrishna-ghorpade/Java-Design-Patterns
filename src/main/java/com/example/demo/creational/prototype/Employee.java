@@ -4,10 +4,10 @@ class Employee implements Cloneable {
 
 	private String name;
 	
-	private EducationService educationService;
+	private EmpTrainingService educationService;
 	
 	public Employee(String name) {
-		educationService = new EducationService();
+		educationService = new EmpTrainingService();
 		this.name = name; 
 	}
 
@@ -24,11 +24,11 @@ class Employee implements Cloneable {
 		this.name = name;
 	}
 
-	public EducationService getEducationService() {
+	public EmpTrainingService getEducationService() {
 		return educationService;
 	}
 
-	public void setEducationService(EducationService educationService) {
+	public void setEducationService(EmpTrainingService educationService) {
 		this.educationService = educationService;
 	}
 }
