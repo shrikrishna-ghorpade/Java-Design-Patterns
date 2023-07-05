@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.iterator;
 
-public class IterableObject implements Container {
+class IterableObject implements Container {
 
 	private String names[];
 
@@ -16,7 +16,7 @@ public class IterableObject implements Container {
 		return iterator;
 	}
 
-	public class IteratorImpl implements Iterator {
+	class IteratorImpl implements Iterator {
 
 		int i;
 

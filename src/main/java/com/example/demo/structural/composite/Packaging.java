@@ -1,6 +1,6 @@
 package com.example.demo.structural.composite;
 
-public interface Packaging {
+interface Packaging {
 
 	public String doPackaging();
 

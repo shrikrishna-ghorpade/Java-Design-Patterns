@@ -1,6 +1,6 @@
 package com.example.demo.structural.composite;
 
-public class CompositePatternDemo {
+class CompositePatternDemo {
 
 	public static void main(String[] args) {
 

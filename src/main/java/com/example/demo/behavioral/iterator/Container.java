@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.iterator;
 
-public interface Container {
+interface Container {
 
 	public Iterator getIterator();
 }

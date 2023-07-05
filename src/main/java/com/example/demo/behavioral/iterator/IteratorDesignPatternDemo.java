@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.iterator;
 
-public class IteratorDesignPatternDemo {
+class IteratorDesignPatternDemo {
 
 	public static void main(String[] args) {
 

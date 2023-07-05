@@ -1,5 +1,5 @@
 package com.example.demo.behavioral.strategy;
 
-public interface Programmer {
+interface Programmer {
 	public String doProgramming();
 }

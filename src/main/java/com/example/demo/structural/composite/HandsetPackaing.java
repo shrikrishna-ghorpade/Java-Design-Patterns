@@ -3,7 +3,7 @@ package com.example.demo.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HandsetPackaing implements Packaging {
+class HandsetPackaing implements Packaging {
 
 	private String mobileName;
 

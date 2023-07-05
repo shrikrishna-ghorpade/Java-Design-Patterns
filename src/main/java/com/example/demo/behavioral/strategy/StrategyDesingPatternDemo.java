@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.strategy;
 
-public class StrategyDesingPatternDemo {
+class StrategyDesingPatternDemo {
 
 	public static void main(String[] args) {
 		

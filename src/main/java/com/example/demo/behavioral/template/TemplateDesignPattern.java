@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.template;
 
-public class TemplateDesignPattern {
+class TemplateDesignPattern {
 
 	public static void main(String[] args) {
 		

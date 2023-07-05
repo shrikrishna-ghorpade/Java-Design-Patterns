@@ -1,6 +1,6 @@
 package com.example.demo.structural.composite;
 
-public class ChargerPackaging implements Packaging {
+class ChargerPackaging implements Packaging {
 
 	private String chargerName;
 

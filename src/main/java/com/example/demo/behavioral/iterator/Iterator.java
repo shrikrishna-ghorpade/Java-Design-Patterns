@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.iterator;
 
-public interface Iterator {
+interface Iterator {
 
 	public boolean hasNext();
 	

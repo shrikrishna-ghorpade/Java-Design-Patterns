@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.observer_deprecated;
 
-public class ObserverPatternDemo {
+class ObserverPatternDemo {
 
 	public static void main(String[] args) {
 

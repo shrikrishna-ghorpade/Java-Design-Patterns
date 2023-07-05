@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.template;
 
-public class DevOps extends EmployeeTemplate {
+class DevOps extends EmployeeTemplate {
 
 	@Override
 	public void interviewProcess() {

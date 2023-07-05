@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.command;
 
-public interface OrderCommandInterface {
+interface OrderCommandInterface {
 	
 	public void execute();
 }

@@ -1,6 +1,6 @@
 package com.example.demo.structural.composite;
 
-public class EarbudPackaging implements Packaging {
+class EarbudPackaging implements Packaging {
 
 	private String size;
 	

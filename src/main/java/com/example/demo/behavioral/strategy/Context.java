@@ -1,6 +1,6 @@
 package com.example.demo.behavioral.strategy;
 
-public class Context {
+class Context {
 
 	private Programmer programmer;
 	

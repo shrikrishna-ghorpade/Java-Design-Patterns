@@ -3,7 +3,7 @@ package com.example.demo.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HeadphonePackaging implements Packaging {
+class HeadphonePackaging implements Packaging {
 
 	private String headphoneName;
 	
