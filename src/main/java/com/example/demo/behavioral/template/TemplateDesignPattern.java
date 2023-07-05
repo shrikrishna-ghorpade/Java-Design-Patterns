@@ -3,11 +3,11 @@ package com.example.demo.behavioral.template;
 class TemplateDesignPattern {
 
 	public static void main(String[] args) {
-		
+
 		EmployeeTemplate javaDeveloper = new Developer();
 		javaDeveloper.empRegistration();
 		javaDeveloper.interviewProcess();
-		
+
 		EmployeeTemplate devOps = new DevOps();
 		devOps.empRegistration();
 		devOps.interviewProcess();

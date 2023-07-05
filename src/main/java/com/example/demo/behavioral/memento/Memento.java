@@ -8,7 +8,7 @@ class Memento {
 		super();
 		this.mementoText = mementoText;
 	}
-	
+
 	public String getMemetoText() {
 		return mementoText;
 	}

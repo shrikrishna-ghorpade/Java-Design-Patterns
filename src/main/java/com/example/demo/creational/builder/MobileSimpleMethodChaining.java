@@ -3,19 +3,19 @@ package com.example.demo.creational.builder;
 class MobileSimpleMethodChaining {
 
 	private String name;
-	
+
 	private String brand;
-	
+
 	private String keypad;
-	
+
 	private String screen;
-	
+
 	private String camera;
-	
+
 	private String fingerPrint;
-	
+
 	private String battery;
-	
+
 	private String mic;
 
 	public MobileSimpleMethodChaining build() {

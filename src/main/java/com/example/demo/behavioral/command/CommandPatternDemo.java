@@ -6,7 +6,7 @@ class CommandPatternDemo {
 		Order order = new Order();
 		ApplyCuponCommand applyCuponCommand = new ApplyCuponCommand(order);
 		ApplyTaxCommand applyTaxCommand = new ApplyTaxCommand(order);
-		
+
 		applyCuponCommand.execute();
 		applyTaxCommand.execute();
 	}

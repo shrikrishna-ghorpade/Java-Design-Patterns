@@ -3,12 +3,12 @@ package com.example.demo.creational.prototype;
 class Employee implements Cloneable {
 
 	private String name;
-	
+
 	private EmpTrainingService educationService;
-	
+
 	public Employee(String name) {
 		educationService = new EmpTrainingService();
-		this.name = name; 
+		this.name = name;
 	}
 
 	@Override

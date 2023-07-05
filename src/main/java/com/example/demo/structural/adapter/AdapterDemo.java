@@ -16,7 +16,7 @@ class AdapterDemo {
 		HeadMaster headMaster = new SchoolHeadMaster();
 		System.out.println(headMaster.manageSchool());
 		System.out.println(headMaster.teachSubject());
-		
+
 		/** Creating adapted head-master who can teach mathematics */
 		HeadMaster headMasterAdapter = new SchoolHeadMasterAdapter(new MathsTeacher());
 		System.out.println(headMasterAdapter.manageSchool());

@@ -23,6 +23,6 @@ class CompositePatternDemo {
 
 		mobilePhonePackage.addSubPackaging(headphonePackage);
 
-		System.out.println("Show components : "+ mobilePhonePackage);
+		System.out.println("Show components : " + mobilePhonePackage);
 	}
 }

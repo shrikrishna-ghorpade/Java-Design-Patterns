@@ -5,7 +5,7 @@ class ChargerPackaging implements Packaging {
 	private String chargerName;
 
 	private String chargerSize;
-	
+
 	public ChargerPackaging(String chargerName, String chargerSize) {
 		super();
 		this.chargerName = chargerName;

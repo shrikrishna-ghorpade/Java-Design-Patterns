@@ -14,50 +14,51 @@ class MobileInnerBuilderClass {
 	}
 
 	private String name;
-	
+
 	private String brand;
-	
+
 	private String keypad;
-	
+
 	private String screen;
-	
+
 	private String camera;
-	
+
 	private String fingerPrint;
-	
+
 	private String battery;
-	
+
 	private String mic;
-	
+
 	public static class Builder {
-		
+
 		private String name;
-		
+
 		private String brand;
-		
+
 		private String keypad;
-		
+
 		private String screen;
-		
+
 		private String camera;
-		
+
 		private String fingerPrint;
-		
+
 		private String battery;
-		
+
 		private String mic;
-		
+
 		public static Builder newInstance() {
 			return new Builder();
 		}
-		
-		private Builder() {}
+
+		private Builder() {
+		}
 
 		public Builder setName(String name) {
 			this.name = name;
 			return this;
 		}
-		
+
 		public Builder setBrand(String brand) {
 			this.brand = brand;
 			return this;
@@ -92,7 +93,7 @@ class MobileInnerBuilderClass {
 			this.mic = mic;
 			return this;
 		}
-		
+
 		public MobileInnerBuilderClass build() {
 			return new MobileInnerBuilderClass(this);
 		}

@@ -3,7 +3,7 @@ package com.example.demo.structural.proxy;
 class ResourceAccessProxy implements ResourceAccessInterface {
 
 	public String passcode;
-	
+
 	public ResourceAccessProxy(String passcode) {
 		super();
 		this.passcode = passcode;

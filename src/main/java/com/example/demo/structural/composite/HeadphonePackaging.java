@@ -6,13 +6,13 @@ import java.util.List;
 class HeadphonePackaging implements Packaging {
 
 	private String headphoneName;
-	
+
 	private List<Packaging> earbuds;
 
 	public HeadphonePackaging(String headphoneName) {
 		super();
 		this.headphoneName = headphoneName;
-		this.earbuds = new ArrayList<>();  
+		this.earbuds = new ArrayList<>();
 	}
 
 	@Override

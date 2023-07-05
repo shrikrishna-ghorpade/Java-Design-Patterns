@@ -14,6 +14,6 @@ class MongoDbConnection implements DbConnection {
 
 	@Override
 	public void disconnect() {
-		System.out.println("MongoDb database disconnected");		
+		System.out.println("MongoDb database disconnected");
 	}
 }

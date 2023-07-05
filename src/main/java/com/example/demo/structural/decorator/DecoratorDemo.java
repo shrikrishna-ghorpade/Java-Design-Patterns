@@ -11,7 +11,7 @@ class DecoratorDemo {
 		/** Wedding decoration */
 		IDecoration weddingDecoration = new WeddingDecorationWrapper();
 		System.out.println(weddingDecoration.doDecoration());
-		
+
 		/** Birthday decoration */
 		IDecoration birthdayDecoration = new BirthdayDecorationWrapper();
 		System.out.println(birthdayDecoration.doDecoration());

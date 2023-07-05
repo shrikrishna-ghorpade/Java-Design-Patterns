@@ -2,8 +2,8 @@ package com.example.demo.structural.facade;
 
 class AdmissionFacade {
 
-	private IAdmission iAdmission; 
-	
+	private IAdmission iAdmission;
+
 	public AdmissionFacade(IAdmission iAdmission) {
 		super();
 		this.iAdmission = iAdmission;

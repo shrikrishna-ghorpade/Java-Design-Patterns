@@ -3,7 +3,7 @@ package com.example.demo.structural.adapter;
 class SchoolHeadMasterAdapter implements HeadMaster {
 
 	private Teacher teacher;
-	
+
 	public SchoolHeadMasterAdapter(Teacher teacher) {
 		super();
 		this.teacher = teacher;

@@ -7,8 +7,6 @@ class QuestionFormat extends QuestionsBridge {
 	}
 
 	public void displayAll() {
-		System.out.println("\n---------------------------------------------------------");
 		super.displayAll();
-		System.out.println("-----------------------------------------------------------");
 	}
 }

@@ -3,7 +3,7 @@ package com.example.demo.structural.composite;
 class EarbudPackaging implements Packaging {
 
 	private String size;
-	
+
 	public EarbudPackaging(String size) {
 		super();
 		this.size = size;

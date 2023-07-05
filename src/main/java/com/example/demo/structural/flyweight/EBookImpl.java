@@ -3,9 +3,9 @@ package com.example.demo.structural.flyweight;
 class EBookImpl implements EBook {
 
 	private String bookName;
-	
+
 	private String author;
-	
+
 	public EBookImpl(String bookName, String author) {
 		super();
 		this.bookName = bookName;

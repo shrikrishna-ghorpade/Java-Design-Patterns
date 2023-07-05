@@ -14,6 +14,6 @@ class MySqlDbConnection implements DbConnection {
 
 	@Override
 	public void disconnect() {
-		System.out.println("Mysql database disconnected");		
+		System.out.println("Mysql database disconnected");
 	}
 }

@@ -6,5 +6,4 @@ class DevOps extends EmployeeTemplate {
 	public void interviewProcess() {
 		System.out.println("DevOps interview process");
 	}
-
 }

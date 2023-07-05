@@ -14,6 +14,6 @@ class MariaDbConnection implements DbConnection {
 
 	@Override
 	public void disconnect() {
-		System.out.println("MariaDb database disconnected");		
+		System.out.println("MariaDb database disconnected");
 	}
 }

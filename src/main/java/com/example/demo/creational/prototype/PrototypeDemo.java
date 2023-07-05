@@ -5,7 +5,7 @@ class PrototypeDemo {
 	public static void main(String[] args) throws CloneNotSupportedException {
 
 		Employee emp = new Employee("Emp");
-		Employee emp2 =(Employee) emp.clone();
+		Employee emp2 = (Employee) emp.clone();
 
 		System.out.println("Emp : " + emp.hashCode());
 		System.out.println("Emp edu  : " + emp.getEducationService().hashCode());

@@ -5,9 +5,9 @@ import java.util.List;
 class Order {
 
 	private String orderName;
-	
+
 	private List<String> items;
-	
+
 	private Integer price;
 
 	public String getOrderName() {
@@ -33,7 +33,7 @@ class Order {
 	public void setPrice(Integer price) {
 		this.price = price;
 	}
-	
+
 	public void applyTax() {
 		System.out.println("Tax applied");
 	}
