@@ -10,7 +10,7 @@ import java.util.List;
  * @author Shrikrishna Ghorpade
  *
  */
-public class MyTopic implements Subject {
+class MyTopic implements Subject {
 
 	private List<Observer> observers = new ArrayList<>();
 	private String message;

@@ -6,7 +6,7 @@ package com.example.demo.behavioral.observer_deprecated;
 /**
  * @author Shrikrishna Ghorpade
  */
-public interface Observer {
+interface Observer {
 
 	public void update();
 

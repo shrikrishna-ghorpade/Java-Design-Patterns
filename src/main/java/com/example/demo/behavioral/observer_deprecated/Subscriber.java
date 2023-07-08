@@ -7,7 +7,7 @@ package com.example.demo.behavioral.observer_deprecated;
  * @author Shrikrishna Ghorpade
  *
  */
-public class Subscriber implements Observer {
+class Subscriber implements Observer {
 
 	private Subject subject;
 	private String name;

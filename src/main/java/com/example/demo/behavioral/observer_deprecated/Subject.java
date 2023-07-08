@@ -7,7 +7,7 @@ package com.example.demo.behavioral.observer_deprecated;
  * @author Shrikrishna Ghorpade
  *
  */
-public interface Subject {
+interface Subject {
 
 	public void registerObserver(Observer observer);
 
