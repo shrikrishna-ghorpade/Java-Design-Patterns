@@ -1,9 +1,14 @@
+/**
+ * 
+ */
 package com.example.demo.behavioral.observer_deprecated;
 
-import java.util.Observable;
+/**
+ * @author Shrikrishna Ghorpade
+ */
+public interface Observer {
 
-interface Observer {
+	public void update();
 
-	public void eventHandler(Observable observable);
-	
+	public void setSubject(Subject sub);
 }
