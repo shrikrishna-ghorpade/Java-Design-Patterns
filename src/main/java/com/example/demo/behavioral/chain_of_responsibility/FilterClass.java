@@ -3,7 +3,6 @@ package com.example.demo.behavioral.chain_of_responsibility;
 import java.util.List;
 
 import org.springframework.util.ObjectUtils;
-import org.springframework.util.StringUtils;
 
 class FilterClass {
 
@@ -28,7 +27,7 @@ class FilterClass {
 		if (null != filterClass) {
 			list = filterClass.filter();
 		}
-		if(!ObjectUtils.isEmpty(filterOn)) {
+		if (!ObjectUtils.isEmpty(filterOn)) {
 			if ("REMOVE_FIRST".equals(filterOn)) {
 				list.remove(0);
 			} else if ("SMALL".equals(filterOn)) {
