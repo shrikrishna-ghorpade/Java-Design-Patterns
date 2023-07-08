@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.demo.behavioral.observer_deprecated;
+package com.example.demo.behavioral.observer;
 
 import java.util.ArrayList;
 import java.util.List;
