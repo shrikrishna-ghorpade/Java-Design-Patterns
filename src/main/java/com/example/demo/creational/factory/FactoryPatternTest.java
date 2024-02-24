@@ -6,7 +6,7 @@ class FactoryPatternTest {
 
 	public static void main(String[] args) {
 
-		/** Type 1 parameter based conditional method */
+		/** Type 1: parameter based conditional method */
 		VehicleService vehicleService = VehicalFactory.buildVehicleService(2);
 		System.out.println(vehicleService.buildVehicle());
 
@@ -16,7 +16,7 @@ class FactoryPatternTest {
 		VehicleService vehicleService3 = VehicalFactory.buildVehicleService(4);
 		System.out.println(vehicleService3.buildVehicle());
 
-		/** Type 2 parameter based, Enum driven method */
+		/** Type 2: parameter based, Enum driven method */
 		VehicleService vehicleService4 = VehicalFactory.buildVehicleService(2);
 		System.out.println(vehicleService4.buildVehicle());
 
@@ -26,7 +26,7 @@ class FactoryPatternTest {
 		VehicleService vehicleService6 = VehicalFactory.buildVehicleService(4);
 		System.out.println(vehicleService6.buildVehicle());
 
-		/** Type 3 class name provided method (more control to client) */
+		/** Type 3: class name provided method (more control to client) */
 		Optional<VehicleService> vehicleService7 = VehicalFactory
 				.buildVehicleServiceByClassName(TwoWheelerService.class);
 		System.out.println(vehicleService7.get().buildVehicle());
