@@ -1,6 +1,7 @@
 package com.example.demo.behavioral.chain_of_responsibility;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.util.ObjectUtils;
 
@@ -31,9 +32,9 @@ class FilterClass {
 			if ("REMOVE_FIRST".equals(filterOn)) {
 				list.remove(0);
 			} else if ("SMALL".equals(filterOn)) {
-				list.removeAll(list.stream().filter(p -> p.length() < 2).toList());
+				list.removeAll(list.stream().filter(p -> p.length() < 2).collect(Collectors.toList()));
 			} else if ("BIG".equals(filterOn)) {
-				list.removeAll(list.stream().filter(p -> p.length() > 10).toList());
+				list.removeAll(list.stream().filter(p -> p.length() > 10).collect(Collectors.toList()));
 			}
 		}
 		return list;
