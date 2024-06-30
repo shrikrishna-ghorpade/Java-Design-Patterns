@@ -17,13 +17,13 @@ class FactoryPatternTest {
 		System.out.println(vehicleService3.buildVehicle());
 
 		/** Type 2: parameter based, Enum driven method */
-		VehicleService vehicleService4 = VehicalFactory.buildVehicleService(2);
+		VehicleService vehicleService4 = VehicalFactory.buildVehicleServiceEnumBased(2);
 		System.out.println(vehicleService4.buildVehicle());
 
-		VehicleService vehicleService5 = VehicalFactory.buildVehicleService(3);
+		VehicleService vehicleService5 = VehicalFactory.buildVehicleServiceEnumBased(3);
 		System.out.println(vehicleService5.buildVehicle());
 
-		VehicleService vehicleService6 = VehicalFactory.buildVehicleService(4);
+		VehicleService vehicleService6 = VehicalFactory.buildVehicleServiceEnumBased(4);
 		System.out.println(vehicleService6.buildVehicle());
 
 		/** Type 3: class name provided method (more control to client) */

@@ -33,7 +33,7 @@ class FilterClass {
 			} else if ("SMALL".equals(filterOn)) {
 				list.removeAll(list.stream().filter(p -> p.length() < 2).toList());
 			} else if ("BIG".equals(filterOn)) {
-				list.removeAll(list.stream().filter(p -> p.length() > 10).toList());
+				list.removeAll(list.stream().filter(p -> p.length() > 10).toList()));
 			}
 		}
 		return list;
